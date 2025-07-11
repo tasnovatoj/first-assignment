@@ -39,6 +39,7 @@ main{
     font-size: 40px;
     font-weight: bold;
     color: #252432;
+    text-align: left;
 }
 .section-description{
     font-size: 24px;
@@ -47,6 +48,7 @@ main{
 
 }
 
+
 .action{
     display: flex;
     justify-content:space-between ;
@@ -54,6 +56,9 @@ main{
 }
 .action-text{
     width: 517px;
+    height: 49px;
+    text-align: left;
+  
 }
 .action-image{
     width: 403px;
@@ -92,6 +97,7 @@ nav li a{
     padding:309px 267.5px 153px 267.5px ;
 }
 .header{
+    
     background-image: url('../Assets/Hero-bg.png');
 }
 /* joined */
@@ -108,7 +114,10 @@ nav li a{
     padding: 50px 142px 50px 142px ;
 }
 
-.section-title{
+.section-title01{
+      font-size: 40px;
+    font-weight: bold;
+    color: #252432;
     text-align: center;
     padding: 50px 143px ;
     margin: 0;
@@ -138,6 +147,9 @@ nav li a{
     text-align: center;
     font-size: 42px;
     font-weight: bold;
+}
+.user-feedback{
+    margin-top: 137px;
 }
 .star{
     display: flex;
@@ -189,4 +201,44 @@ nav li a{
     justify-content: space-between;
     
     
+}
+/* touch */
+.touch-text{
+    font-size: 70px;
+    font-weight: bold;
+    color: black;
+}
+.touch{
+    display: flex;
+    margin:71px 0px 71px 0;
+    gap: 80px;
+    width: 100%;
+    align-items: center;
+    border-radius: 10px;
+    justify-content: space-between;
+    padding: 100px 50px 100px 50px;
+    background-color:rgba(78, 71, 255, 0.1) ;
+    
+}
+.form input[type="text"] {
+    size: 497px 70px;
+    border-radius: 10px;
+    background-color: white ;
+    display: block;
+    width: 100%;
+    padding: 10px 20px;
+    margin-bottom: 24px;
+    border: none;
+}
+.form textarea{
+   size: 497px 167px;
+  border-radius: 10px;
+  background-color: white;
+  display: block;
+  width: 100%;
+  padding: 10px 20px;
+  margin-bottom: 24px;
+  box-sizing: border-box;
+  font-size: 16px;
+  border: none;
 }
