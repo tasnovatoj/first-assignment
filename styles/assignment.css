@@ -242,3 +242,28 @@ nav li a{
   font-size: 16px;
   border: none;
 }
+
+/* footer */
+.footer{
+
+    text-align: center;
+    margin: 233px 455px 447px 454px;
+    
+}
+.last-logo{
+    font-size: 100px;
+    color: #4E47FF;
+    text-align: center;
+    margin-bottom: 0px;
+}
+.para{
+    color: #252432;
+    margin-top: 0px;
+}
+.home{
+    
+    display: flex;
+    justify-content: space-around;
+    font-weight: 200;
+    
+}
